@@ -7,7 +7,7 @@ t0 = time.time() # Start timer
 def func(x): # x will be a sequence
       results = []
       k = []
-      for i in range(8): # Modify x three times
+      for i in range(8): # Modify x 8 times
             x.append(random.randint(1, 9)) # Modify the list by adding a random number to the end
             z = list(permutations(x, len(x))) # Make all possible x-pairs for x
             results.append(z) # Append the permutations of each iteration to results
